@@ -93,7 +93,7 @@ for epoch in range(epochs):
     optimizer.step()
 
   #Testing loop
-    #Evakuation mode
+    #Evaluation mode
     model_0.eval()
 
     with torch.inference_mode():
